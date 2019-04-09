@@ -1,0 +1,49 @@
+
+main {
+    width: 100%;
+    height: 100vh;
+}
+
+
+.thank-inner {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    text-align: center;
+    
+}
+
+.logo-container {
+    width: 100px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+}
+
+.back-btn {
+    background: black;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+
+    padding: 20px;
+
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.back-btn:hover {
+
+    background: #af1414;
+
+}

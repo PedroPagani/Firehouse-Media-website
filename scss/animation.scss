@@ -1,0 +1,65 @@
+
+/* 
+    LOADING DISAPPEAR
+ */
+
+ [data-disappear="close"] {
+    transition: 500ms ease;
+    opacity: 0;
+ }
+
+
+
+/* 
+    MODAL - OPEN/CLOSE
+  */
+
+
+[data-modal] {
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+[data-modal="open"] {
+    top: 50%;
+    transition: 300ms ease;
+}  
+
+[data-modal="close"] {
+    top: -500px;
+    
+
+}
+
+/* 
+    HEADER
+ */
+
+
+[data-show="close"] {
+    top: -100px;
+}
+
+[data-show="open"] {
+    top: 0;
+}
+
+/* 
+    SLIDE MENU
+ */
+
+[data-menu] {
+    position: fixed;
+    top: 75px;
+    transition: 300ms ease;
+}
+
+[data-menu="close"] {
+    right: -120px;
+}
+
+[data-menu="open"] {
+    right: 0;
+}

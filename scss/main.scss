@@ -1,0 +1,782 @@
+
+* {
+    
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+
+body {
+    margin: 0;
+    width: 100%;
+    background: #fafafa;
+}
+main {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+
+/* This span is for the h1 tags */
+span {
+    padding-bottom: 10px; 
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.black-bg {
+    display: none;
+    position: fixed;
+    z-index: 2;
+    width: inherit;
+    height: 100vh;
+    background: rgba(0,0,0,0.8);
+}
+
+.icon-click {
+    cursor: pointer;
+}
+
+
+/* ------------------------------------
+
+            LOADING SECTION
+
+ --------------------------------------*/
+
+.loading-screen-inner {
+    
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: black;
+    z-index: 10;
+}
+
+.loading-screen-inner img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+
+}
+
+
+/* ------------------------------------
+
+            MODAL SECTION
+
+ --------------------------------------*/
+
+ #video-modal {
+     display: block;
+     background: white;
+     z-index: 2;
+     width: 85%;
+ }
+
+
+ .video-modal-inner {
+    width: 100%;
+ }
+
+
+ /* Aqui server para poder colocar um fundo do vídeo caso precise */
+ .video-modal-container {
+     width: 100%;
+ }
+
+ .close-modal-btn {
+    text-align: center;
+    padding: 10px 0;
+    color: #af1414;
+    font-size: 20px;
+
+    cursor: pointer;
+
+    background: black;
+ } 
+
+/* ------------------------------------
+
+            HEADER SECTION
+
+ --------------------------------------*/
+
+header {
+    position: fixed;
+    width: 100%;
+    background: white;
+    z-index: 5;
+    transition: 500ms ease;
+    box-shadow: 0 1px 20px 1px rgb(158, 158, 158);
+}
+
+
+
+
+
+.links-header-container {
+    display: flex;
+    justify-content: center;
+    
+    
+ }
+
+.logo-header-container img{
+    width: 100px;
+    display: none;
+    align-self: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+ .links-header-list {
+    color: black;
+    display: flex;
+    
+    align-items: center;
+ }
+
+ .links-header-list li {
+    
+    font-size: 16px;
+    font-weight: 700;
+    display: inline;
+    margin-right: 20px;
+    cursor: pointer;
+    
+ }
+
+ .links-header-list li {
+    img {
+        width: 30px;
+    }
+    
+    
+ }
+
+ .links-header-list li:last-child {
+    
+    margin-right: 0;
+    
+ }
+
+ .menu-header-icon i{
+     display: none;
+     font-size: 20px;
+     color: black;
+     padding: 10px;
+     
+ }
+
+ .menu-slide {
+     display: none;
+     font-weight: 700;
+     
+     text-align: center;
+     width: 100px;
+     background: white;
+     z-index: 3;
+
+     box-shadow: -2px 2px 20px 2px rgb(158, 158, 158);;
+ }
+
+ .menu-slider-inner {
+    ul {
+        li {
+            padding: 10px;
+            cursor: pointer;
+        }
+    }
+ }
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------
+
+            HOME SECTION
+
+ --------------------------------------*/
+
+
+ nav {
+     position: absolute;
+     width: 100%;
+     z-index: 2;
+ }
+
+
+
+ .links-container {
+    display: flex;
+    justify-content: flex-end;
+    
+ }
+ 
+ .links-list {
+    color: white;
+    padding: 30px;
+    padding-right: 150px;
+    padding-top: 100px;
+    font-weight: 700;
+    
+ }
+
+ .links-list li {
+    font-size: 16px;
+    display: inline;
+    margin-right: 20px;
+    cursor: pointer;
+    
+
+ }
+
+ .menu-icon i{
+     display: none;
+     font-size: 20px;
+     color: white;
+     padding: 30px;
+     margin-right: 10px;
+     position: relative;
+     top: 50%;
+     transform: translate(0, -50%);
+ }
+
+
+ @media only screen and (max-width: 1024px) {
+     .links-list {
+         display: none;
+     }
+
+     .menu-icon {
+         i {
+             display: block;
+         }
+     }
+
+ }
+
+
+
+.video-container {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    
+}
+
+
+
+
+.video-bg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -5;
+    
+}
+
+
+.logo-img {
+    /* Criei uma caixa com os logos dentro e deixei em flex para alinhar */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    
+    width: 20%;
+
+    
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%); 
+}
+
+
+/* Cada imagem tem um tamanho dentro da caixa, tive que usar o align self para não distorcer */
+.logo-img img:nth-child(1){
+    width: 30%;
+    align-self: center;
+}
+
+.logo-img img:nth-child(2){
+    width: 100%;
+      align-self: center;
+}
+
+
+
+
+/* ------------------------------------
+
+            PORTFOLIO SECTION
+
+ --------------------------------------*/
+
+.portfolio-links-container {
+    padding-top: 15px;
+    margin-bottom: 50px;
+}
+
+
+.portfolio-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.portfolio-list {
+    li {
+        padding: 0 20px;
+        padding-bottom: 0;
+        //margin-right: 20px; 
+    
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+    
+        cursor: pointer;
+    
+        border-right: solid 1px black;
+        border-bottom: solid 2px transparent;
+
+    }
+    li:last-child {
+        border-right: none;
+    }
+}
+
+@media only screen and (max-width: 610px) {
+
+    .portfolio-list {
+        li {
+            border-right: none;
+            padding-top: 30px;
+            padding-right: 10px; 
+        }
+    }
+}
+
+.portfolio-list li:hover {
+    border-bottom: solid 2px red;
+}
+
+/* 
+    VIDEO-GRID
+ */
+
+
+
+
+.portfolio-video-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.thumb-container {
+   width: 390px;
+   
+}
+
+.thumb {
+    width: 100%;
+    padding: 10px;
+}
+
+
+
+   
+
+.overflow {
+    overflow: hidden; 
+}
+
+.thumb-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 500ms ease;
+}
+
+.thumb-img:hover {
+    transform: scale(1.1);
+}
+
+//t
+/* ------------------------------------
+
+            CLIENTES SECTION
+
+ --------------------------------------*/
+
+
+ #clients-section {
+     padding-top: 50px;
+     
+ }
+
+ .responsive {
+     padding-top: 50px;
+     width: 100%;
+     overflow: hidden;
+ }
+
+.clients-thumb {
+    height: 200px;
+}
+
+.clients-thumb img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* ------------------------------------
+
+            ABOUT SECTION
+
+ --------------------------------------*/
+
+ #about-section {
+     padding-top: 50px;
+ }
+
+ .quote-container {
+     padding-top: 30px;
+ }
+
+ blockquote {
+     padding-left: 20px;
+     font-weight: 500;
+     border-left: solid 2px black;
+ }
+
+ .logo-ancine-container {
+     display: flex;
+     justify-content: center;
+     margin: 30px 0;
+     p {
+         margin-right: 20px;
+     }
+     img {
+         width: 100px;
+         align-self: center;
+     }
+ }
+
+
+
+ /* ------------------------------------
+
+            PARALLAX
+
+ --------------------------------------*/
+
+
+.parallax {
+    margin: 50px 0;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    
+    video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+    }
+}
+
+
+
+
+
+ /* ------------------------------------
+
+            FORM SECTION
+
+ --------------------------------------*/
+
+#form-section {
+    padding-top: 50px;
+    padding-bottom: 50px; 
+}
+
+.form-container {
+    padding: 50px;
+}
+
+.input-container {
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    font-weight: 700; 
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 5px;
+}
+
+
+
+select {
+    width: 100%;
+    padding: 10px;
+}
+
+textarea {
+    width: 100%;
+}
+
+.btn-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.submit-btn {
+    border: none;
+    border-radius: 10px;
+    
+    margin-left: 50px;
+
+    color: white;
+    font-size: 20px;
+
+    width: 200px;
+    background: #000000;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 680px) {
+
+    
+    .submit-btn {
+        
+        margin-left: 0;
+        margin-top: 20px;
+        padding: 20px;
+        
+        
+    }
+
+}
+
+
+.submit-btn:focus {
+    outline: transparent
+}
+
+.submit-btn:hover {
+    background: #af1414;
+}
+
+.contacts {
+    text-align: center;
+    font-weight: 700;
+}
+
+.contacts p a{
+    color: rgb(175, 20, 20);
+}
+
+
+.required {
+    border: solid 3px red;
+
+}
+
+
+
+
+
+ /* ------------------------------------
+
+     h       FOOTER SECTION
+
+ --------------------------------------*/
+
+  
+ footer {
+     background: black;
+     color: white;
+     text-align: center;
+ }
+
+ .footer-inner p{
+    margin: 0;
+    padding-bottom: 20px;
+    font-size: 10px;
+ }
+
+ .social-list {
+    padding: 20px 0;
+}
+
+ .social-list li{
+     display: inline;
+     font-size: 30px;
+     margin-right: 20px;
+ }
+ .social-list li a{
+    color: white;
+}
+
+
+/*------------------------------------------------- 
+
+
+    MEDIA QUERIE MAX 1024PX
+
+
+-------------------------------------------------*/
+
+
+@media only screen and (max-width: 1024px) {
+
+/* 
+    LOADING
+*/
+
+
+/* .loading-screen-inner {
+    
+    height: calc(100vh - 56px);
+    
+} */
+
+
+
+/* 
+    HEADER
+ */
+
+ .links-header-container {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+
+    
+ }
+
+.logo-header-container img{
+    width: 40px;
+    display: block;
+    
+    
+}
+ .links-header-list {
+    
+    display: none;
+ }
+
+
+
+.menu-header-icon {
+    i {
+        display: inline-block;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+.menu-slide {
+    display: inline-block;
+}
+ 
+
+ 
+
+ 
+
+
+
+
+
+/* 
+    HOME
+*/
+
+
+.video-container {
+    
+    height: 30vh;
+    
+}
+
+
+.logo-img {
+    /* Criei uma caixa com os logos dentro e deixei em flex para alinhar */
+    
+    width: 150px;
+
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50, -50%); 
+
+    
+    
+}
+
+
+.parallax {
+    height: 200px;
+}
+
+
+
+
+}
+

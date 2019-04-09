@@ -1,0 +1,216 @@
+{
+    "videos": {
+        "categories": [
+            {
+                "id": "destaques",
+                "videosInfo": [
+                    {
+                        "title": "Firehouse MEDIA Film Reel 2019",
+                        "link": "https://player.vimeo.com/video/325498510?autoplay=1&loop=1&color=ffffff&portrait=0",
+                        "largeThumb": "img/thumbs/tbn-firehouse-media-film-demo-reel-produtora-de-videos-motion-graphics-2019.jpg",
+                        "smallThumb": "img/thumbs/tbn-firehouse-media-film-demo-reel-produtora-de-videos-motion-graphics-2019_Easy-Resize.com.jpg"
+                    },
+                    {
+                        "title": "Aftermovie Oficial João Rock 2018 | João Rock",
+                        "link": "https://player.vimeo.com/video/310334294?autoplay=1&title=0&byline=0",
+                        "largeThumb": "img/thumbs/tbn-firehouse-media-aftermovie-joao-rock-2018.jpg",
+                        "smallThumb": "img/thumbs/tbn-firehouse-media-aftermovie-joao-rock-2018_Easy-Resize.com.jpg"
+                    },
+                    {
+                        "title": "Aftermovie Programa Panasonic +Q10 | Panasonic",
+                        "link": "https://player.vimeo.com/video/310332657?autoplay=1&loop=1&title=0&byline=0",
+                        "largeThumb": "img/thumbs/tbn-firehouse-media-aftermovie-panasonic-+Q10.jpg",
+                        "smallThumb": "img/thumbs/tbn-firehouse-media-aftermovie-panasonic-+Q10_Easy-Resize.com.jpg"
+                    },
+                    {
+                        "title": "Institucional Emis | Emis Minas",
+                        "link": "https://player.vimeo.com/video/310335009?autoplay=1&loop=1&title=0&byline=0&portrait=0",
+                        "largeThumb": "img/thumbs/tbn-firehouse-media-institucional-emis-minas.jpg",
+                        "smallThumb": "img/thumbs/tbn-firehouse-media-institucional-emis-minas_Easy-Resize.com.jpg"
+                    },
+                    {
+                        "title": "Mosca | João Rock",
+                        "link": "https://player.vimeo.com/video/310334900?autoplay=1&loop=1&title=0&byline=0&portrait=0",
+                        "largeThumb": "img/thumbs/tbn-firehouse-media-comercial-joao-rock-2018-mosca.jpg",
+                        "smallThumb": "img/thumbs/tbn-firehouse-media-comercial-joao-rock-2018-mosca_Easy-Resize.com.jpg"
+                    },
+                    {
+                        "title": "Making of Lowell Caps Sandy | Lowell",
+                        "link": "https://player.vimeo.com/video/310333639?autoplay=1&loop=1&title=0&byline=0&portrait=0",
+                        "largeThumb": "img/thumbs/tbn-firehouse-media-fashion-film-lowell-sandy.jpg",
+                        "smallThumb": "img/thumbs/tbn-firehouse-media-fashion-film-lowell-sandy_Easy-Resize.com.jpg"
+                    }
+
+                ]
+            },
+            {
+                "id": "eventos",
+                "videosInfo": [
+                    {
+                        "title": "Lowell Onboard - Cruzeiro 2018 | Lowell",
+                        "link": "https://player.vimeo.com/video/311571664?autoplay=1&loop=1&title=0&byline=0&portrait=0",
+                        "largeThumb": "img/thumbs/tbn-firehouse-media-aftermovie-lowell-onboard-cruzeiro.jpg",
+                        "smallThumb": "img/thumbs/tbn-firehouse-media-aftermovie-lowell-onboard-cruzeiro_Easy-Resize.com.jpg"
+                    },
+                    {
+                        "title": "Aftermovie A Formula Magica Philips AOC | Philips",
+                        "link": "https://player.vimeo.com/video/311573291?autoplay=1&loop=1&title=0&byline=0&portrait=0",
+                        "largeThumb": "img/thumbs/tbn-firehouse-media-aftermovie-Philips-Aoc.jpg",
+                        "smallThumb": "img/thumbs/tbn-firehouse-media-aftermovie-Philips-Aoc_Easy-Resize.com.jpg"
+                    },
+                    {
+                        "title": "Aftermovie Oficial João Rock 2018 | João Rock",
+                        "link": "https://player.vimeo.com/video/310334294?autoplay=1&title=0&byline=0",
+                        "largeThumb": "img/thumbs/tbn-firehouse-media-aftermovie-joao-rock-2018.jpg",
+                        "smallThumb": "img/thumbs/tbn-firehouse-media-aftermovie-joao-rock-2018_Easy-Resize.com.jpg"
+                    },
+                    {
+                        "title": "Aftermovie Broccoli Consumption Conference | Sakata",
+                        "link": "https://player.vimeo.com/video/311572299?autoplay=1&loop=1&title=0&byline=0",
+                        "largeThumb": "img/thumbs/tbn-firehouse-media-aftermovie-sakata-brocolis-consumption-conference.jpg",
+                        "smallThumb": "img/thumbs/tbn-firehouse-media-aftermovie-sakata-brocolis-consumption-conference_Easy-Resize.com.jpg"
+                    },
+                    {
+                        "title": "Aftermovie Feijoada do Rosa 2018 | Seo Rosa",
+                        "link": "https://player.vimeo.com/video/310333846?autoplay=1&loop=1&title=0&byline=0&portrait=0",
+                        "largeThumb": "img/thumbs/tbn-firehouse-media-aftermovie-feijoada-seo-rosa-2018.jpg",
+                        "smallThumb": "img/thumbs/tbn-firehouse-media-aftermovie-feijoada-seo-rosa-2018_Easy-Resize.com.jpg"
+                    },
+                    {
+                        "title": "Mais Vídeos",
+                        "link": "https://vimeopro.com/mediafirehouse/eventos",
+                        "largeThumb": "img/thumbs/tbn-firehouse-media-mais-videos-vimeo-portfolio-vermelho.jpg",
+                        "smallThumb": ""
+                    }
+
+                ]
+            },
+            {
+                "id": "empresas",
+                "videosInfo": [
+                    {
+                        "title": "Institucional Lowell 2018 | Lowell",
+                        "link": "https://player.vimeo.com/video/311570831?autoplay=1&loop=1&title=0&byline=0&portrait=0",
+                        "largeThumb": "img/thumbs/tbn-firehouse-media-institucional-lowell-2018.jpg",
+                        "smallThumb": "img/thumbs/tbn-firehouse-media-institucional-lowell-2018_Easy-Resize.com.jpg"
+                    },
+                    {
+                        "title": "Institucional EADI Aurora | EADI Aurora",
+                        "link": "https://player.vimeo.com/video/311569746?autoplay=1&title=0&byline=0&portrait=0",
+                        "largeThumb": "img/thumbs/tbn-firehouse-media-institucional-eadi-aurora.jpg",
+                        "smallThumb": "img/thumbs/tbn-firehouse-media-institucional-eadi-aurora_Easy-Resize.com.jpg"
+                    },
+                    {
+                        "title": "Aftermovie Evento Brazilian Washing Team | Panasonic",
+                        "link": "https://player.vimeo.com/video/310369263?autoplay=1&loop=1&title=0&byline=0&portrait=0",
+                        "largeThumb": "img/thumbs/tbn-firehouse-media-aftermovie-panasonic-lavadoras-brazilia-washing-team.jpg",
+                        "smallThumb": "img/thumbs/tbn-firehouse-media-aftermovie-panasonic-lavadoras-brazilia-washing-team_Easy-Resize.com.jpg"
+                    },
+                    {
+                        "title": "Institucional Emis | Emis Minas",
+                        "link": "https://player.vimeo.com/video/310335009?autoplay=1&loop=1&title=0&byline=0&portrait=0",
+                        "largeThumb": "img/thumbs/tbn-firehouse-media-institucional-emis-minas.jpg",
+                        "smallThumb": "img/thumbs/tbn-firehouse-media-institucional-emis-minas_Easy-Resize.com.jpg"
+                    },
+                    {
+                        "title": "Workshop de Líderes - Manaus 2018 | Panasonic",
+                        "link": "https://player.vimeo.com/video/311571982?autoplay=1&loop=1&title=0&byline=0&portrait=0",
+                        "largeThumb": "img/thumbs/tbn-firehouse-media-aftermovie-panasonic-workshop-manaus-lideres.jpg",
+                        "smallThumb": "img/thumbs/tbn-firehouse-media-aftermovie-panasonic-workshop-manaus-lideres_Easy-Resize.com.jpg"
+                    },
+                    {
+                        "title": "Mais Vídeos",
+                        "link": "https://vimeopro.com/mediafirehouse/empresas",
+                        "largeThumb": "img/thumbs/tbn-firehouse-media-mais-videos-vimeo-portfolio-azul.jpg",
+                        "smallThumb": ""
+                    }
+
+                ]
+            },
+            {
+                "id": "mg",
+                "videosInfo": [
+                    {
+                        "title": "Conheça o Golds Club Motion Graphics | Golds Club",
+                        "link": "https://player.vimeo.com/video/108234972?autoplay=1&loop=1",
+                        "largeThumb": "img/thumbs/tbn-firehouse-media-comercial-motion-graphics-animacao-comercial-institucional-golds-club.jpg",
+                        "smallThumb": "img/thumbs/tbn-firehouse-media-comercial-motion-graphics-animacao-comercial-institucional-golds-club_Easy-Resize.com.jpg"
+                    },
+                    {
+                        "title": "Comercial Line Up João Rock 2019",
+                        "link": "https://player.vimeo.com/video/325261053?autoplay=1&loop=1",
+                        "largeThumb": "img/thumbs/tbn-firehouse-media-comercial-motion-graphics-animacao-joao-rock-2019.jpg",
+                        "smallThumb": "img/thumbs/tbn-firehouse-media-comercial-motion-graphics-animacao-joao-rock-2019_Easy-Resize.com.jpg"
+                    },
+                    {
+                        "title": "Institucional Lab in a Box | Lab-in-a-box",
+                        "link": "https://player.vimeo.com/video/323846883?autoplay=1&loop=1",
+                        "largeThumb": "img/thumbs/tbn-firehouse-media-comercial-motion-graphics-institucional-animacao-lab-in-a-box.jpg",
+                        "smallThumb": "img/thumbs/tbn-firehouse-media-comercial-motion-graphics-institucional-animacao-lab-in-a-box_Easy-Resize.com.jpg"
+                    },
+                    {
+                        "title": "Projeto Quadra Facamp | DCE Celso Furtado",
+                        "link": "https://player.vimeo.com/video/310332102?autoplay=1&loop=1",
+                        "largeThumb": "img/thumbs/tbn-firehouse-media-comercial-motion-graphics-animacao-facamp-quadra-rotoscope.jpg",
+                        "smallThumb": "img/thumbs/tbn-firehouse-media-comercial-motion-graphics-animacao-facamp-quadra-rotoscope_Easy-Resize.com.jpg"
+                    },
+                    {
+                        "title": "Lançamento Lowell Caps | Lowell",
+                        "link": "https://player.vimeo.com/video/312700769?autoplay=1&loop=1",
+                        "largeThumb": "img/thumbs/tbn-firehouse-media-comercial-motion-graphics-animacao-lowell-dynamics.jpg",
+                        "smallThumb": "img/thumbs/tbn-firehouse-media-comercial-motion-graphics-animacao-lowell-dynamics_Easy-Resize.com.jpg"
+                    },
+                    {
+                        "title": "Mais Vídeos",
+                        "link": "https://vimeopro.com/mediafirehouse/mg",
+                        "largeThumb": "img/thumbs/tbn-firehouse-media-mais-videos-vimeo-portfolio-vermelho.jpg",
+                        "smallThumb": ""
+                    }
+
+                ]
+            },
+            {
+                "id": "mais",
+                "videosInfo": [
+                    {
+                        "title": "Animação 3D - Comercial João Rock (15”) | João Rock",
+                        "link": "https://player.vimeo.com/video/323848012?autoplay=1&loop=1&title=0&byline=0&portrait=0",
+                        "largeThumb": "img/thumbs/tbn-firehouse-media-motion-graphics-comercial-animacao-3d-joao-rock-2018.jpg",
+                        "smallThumb": "img/thumbs/tbn-firehouse-media-motion-graphics-comercial-animacao-3d-joao-rock-2018_Easy-Resize.com.jpg"
+                    },
+                    {
+                        "title": "Fashion Film Making of Linha Deslumbre 2018 | Lowell",
+                        "link": "https://player.vimeo.com/video/312703395?autoplay=1&loop=1&title=0&byline=0&portrait=0",
+                        "largeThumb": "img/thumbs/tbn-firehouse-media-fashion-film-lowell-deslumbre.jpg",
+                        "smallThumb": "img/thumbs/tbn-firehouse-media-fashion-film-lowell-deslumbre_Easy-Resize.com.jpg"
+                    },
+                    {
+                        "title": "Cotidiano Dela por Juliana Manzato",
+                        "link": "https://player.vimeo.com/video/310331769?autoplay=1&loop=1&title=0&byline=0&portrait=0",
+                        "largeThumb": "img/thumbs/tbn-firehouse-media-Fashion-Film-Juliana-Manzato-cotidiano-dela.jpg",
+                        "smallThumb": "img/thumbs/tbn-firehouse-media-Fashion-Film-Juliana-Manzato-cotidiano-dela_Easy-Resize.com.jpg"
+                    },
+                    {
+                        "title": "Aftermovie Off Shore | Bléque",
+                        "link": "https://player.vimeo.com/video/107260145?autoplay=1&loop=1&title=0&byline=0&portrait=0",
+                        "largeThumb": "img/thumbs/tbn-firehouse-media-fashion-film-bleque-off-shore-sapatos.jpg",
+                        "smallThumb": "img/thumbs/tbn-firehouse-media-fashion-film-bleque-off-shore-sapatos_Easy-Resize.com.jpg"
+                    },
+                    {
+                        "title": "Aftermovie Sertão dos Sonhos no Arraiá do Liceu | Liceu Salesiano",
+                        "link": "https://player.vimeo.com/video/311570062?autoplay=1&loop=1&title=0&byline=0&portrait=0",
+                        "largeThumb": "img/thumbs/tbn-firehouse-media-aftermovie-festa-junina-liceu-salesiano.jpg",
+                        "smallThumb": "img/thumbs/tbn-firehouse-media-aftermovie-festa-junina-liceu-salesiano_Easy-Resize.com.jpg"
+                    },
+                    {
+                        "title": "Mais Vídeos",
+                        "link": "https://vimeopro.com/mediafirehouse/reel",
+                        "largeThumb": "img/thumbs/tbn-firehouse-media-mais-videos-vimeo-portfolio-azul.jpg",
+                        "smallThumb": ""
+                    }
+
+                ]
+            }
+        ]
+    }
+}
